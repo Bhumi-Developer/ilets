@@ -27,10 +27,10 @@ export function Testimonials() {
     <section
       id="testimonials"
       aria-labelledby="testimonials-heading"
-      className="py-16 sm:py-20 lg:py-24 bg-white text-black"
+      className="py-16 sm:py-20 lg:py-24"
     >
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <h2 id="testimonials-heading" className="text-balance text-2xl font-semibold sm:text-3xl text-center text-gray-800 ">
+        <h2 id="testimonials-heading" className="text-balance text-2xl font-semibold sm:text-3xl text-center text-white ">
           Student success stories
         </h2>
         <p className="mt-2 max-w-prose mx-auto text-center text-gray-600 dark:text-gray-300">
