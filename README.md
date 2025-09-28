@@ -1,16 +1,47 @@
-# React + Vite
+# IELTS Coaching Center Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a modern, responsive, and feature-rich homepage for an IELTS coaching center. It is built with React and styled with Tailwind CSS, providing a clean, professional, and user-friendly interface for prospective students.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Modern & Professional Design**: The website features a clean, minimal design with a blue and white color scheme, reflecting a professional educational institute.
+- **Responsive Layout**: The entire website is fully responsive, ensuring a seamless experience on all devices, from mobile phones to desktops.
+- **Dark Mode**: A user-friendly dark mode is available, with a convenient toggle button in the navigation bar to switch between light and dark themes.
+- **Engaging Hero Section**: A compelling hero section with a background image, clear call-to-action, and key highlights to attract visitors.
+- **Informative Cards**: A dedicated section to showcase the institute's key features, such as AI band scoring, speaking practice, mock tests, and expert guidance.
+- **Social Proof**: Testimonials from past students are included to build trust and credibility.
+- **Comprehensive Footer**: A detailed footer provides quick access to important links, contact information, and social media profiles.
 
-## React Compiler
+## Technologies Used
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **React**: A JavaScript library for building user interfaces.
+- **Vite**: A fast build tool and development server for modern web projects.
+- **Tailwind CSS**: A utility-first CSS framework for creating custom designs.
 
-## Expanding the ESLint configuration
+## Available Scripts
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+In the project directory, you can run:
+
+### `npm run dev`
+
+Runs the app in the development mode.<br />
+Open [http://localhost:5173](http://localhost:5173) to view it in the browser.
+
+The page will reload if you make edits.<br />
+You will also see any lint errors in the console.
+
+### `npm run build`
+
+Builds the app for production to the `dist` folder.<br />
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.<br />
+Your app is ready to be deployed!
+
+### `npm run lint`
+
+Lints the project files for any code quality issues.
+
+### `npm run preview`
+
+Serves the production build locally to preview before deploying.
